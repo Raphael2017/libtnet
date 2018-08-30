@@ -1,0 +1,1 @@
+/usr/bin/c++  -std=c++0x  -g  -rdynamic CMakeFiles/wsclient_test.dir/wsclient_test.cpp.o  -o ../bin/wsclient_test ../lib/libtnet.a ../lib/libtnet_http.a ../lib/libtnet.a -lrt 

@@ -1,0 +1,1279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="TNET"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\http\;CMake Files\src\redis\;CMake Files\test\;CMake Files\helloworld\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/qwerty/my_proj/net/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/qwerty/my_proj/net/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/qwerty/my_proj/net/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/qwerty/my_proj/net/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/qwerty/my_proj/net/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/qwerty/my_proj/net/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/qwerty/my_proj/net/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tnet">
+				<Option output="/home/qwerty/my_proj/net/cmake-build-debug/lib/libtnet.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/qwerty/my_proj/net/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/x86_64-suse-linux"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 tnet"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tnet/fast">
+				<Option output="/home/qwerty/my_proj/net/cmake-build-debug/lib/libtnet.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/qwerty/my_proj/net/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/x86_64-suse-linux"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 tnet/fast"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tnet_http">
+				<Option output="/home/qwerty/my_proj/net/cmake-build-debug/lib/libtnet_http.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/qwerty/my_proj/net/cmake-build-debug/src/http"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHTTP_PARSER_STRICT=0"/>
+					<Add directory="/home/qwerty/my_proj/net/src/http/.."/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/x86_64-suse-linux"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/src/http/Makefile&quot;  VERBOSE=1 tnet_http"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/src/http/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/src/http/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/src/http/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tnet_http/fast">
+				<Option output="/home/qwerty/my_proj/net/cmake-build-debug/lib/libtnet_http.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/qwerty/my_proj/net/cmake-build-debug/src/http"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHTTP_PARSER_STRICT=0"/>
+					<Add directory="/home/qwerty/my_proj/net/src/http/.."/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/x86_64-suse-linux"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/src/http/Makefile&quot;  VERBOSE=1 tnet_http/fast"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/src/http/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/src/http/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/src/http/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tnet_redis">
+				<Option output="/home/qwerty/my_proj/net/cmake-build-debug/lib/libtnet_redis.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/qwerty/my_proj/net/cmake-build-debug/src/redis"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/qwerty/my_proj/net/src/redis/.."/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/x86_64-suse-linux"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/src/redis/Makefile&quot;  VERBOSE=1 tnet_redis"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/src/redis/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/src/redis/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/src/redis/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tnet_redis/fast">
+				<Option output="/home/qwerty/my_proj/net/cmake-build-debug/lib/libtnet_redis.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/qwerty/my_proj/net/cmake-build-debug/src/redis"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/qwerty/my_proj/net/src/redis/.."/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/x86_64-suse-linux"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/src/redis/Makefile&quot;  VERBOSE=1 tnet_redis/fast"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/src/redis/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/src/redis/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/src/redis/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cometserver_test">
+				<Option output="/home/qwerty/my_proj/net/cmake-build-debug/bin/cometserver_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/qwerty/my_proj/net/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/qwerty/my_proj/net/test/../src"/>
+					<Add directory="/home/qwerty/my_proj/net/test/../src/http"/>
+					<Add directory="/home/qwerty/my_proj/net/test/../src/redis"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/x86_64-suse-linux"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 cometserver_test"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cometserver_test/fast">
+				<Option output="/home/qwerty/my_proj/net/cmake-build-debug/bin/cometserver_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/qwerty/my_proj/net/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/qwerty/my_proj/net/test/../src"/>
+					<Add directory="/home/qwerty/my_proj/net/test/../src/http"/>
+					<Add directory="/home/qwerty/my_proj/net/test/../src/redis"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/x86_64-suse-linux"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 cometserver_test/fast"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cometclient_test">
+				<Option output="/home/qwerty/my_proj/net/cmake-build-debug/bin/cometclient_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/qwerty/my_proj/net/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/qwerty/my_proj/net/test/../src"/>
+					<Add directory="/home/qwerty/my_proj/net/test/../src/http"/>
+					<Add directory="/home/qwerty/my_proj/net/test/../src/redis"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/x86_64-suse-linux"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 cometclient_test"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cometclient_test/fast">
+				<Option output="/home/qwerty/my_proj/net/cmake-build-debug/bin/cometclient_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/qwerty/my_proj/net/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/qwerty/my_proj/net/test/../src"/>
+					<Add directory="/home/qwerty/my_proj/net/test/../src/http"/>
+					<Add directory="/home/qwerty/my_proj/net/test/../src/redis"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/x86_64-suse-linux"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 cometclient_test/fast"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="redisclient_test">
+				<Option output="/home/qwerty/my_proj/net/cmake-build-debug/bin/redisclient_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/qwerty/my_proj/net/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/qwerty/my_proj/net/test/../src"/>
+					<Add directory="/home/qwerty/my_proj/net/test/../src/http"/>
+					<Add directory="/home/qwerty/my_proj/net/test/../src/redis"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/x86_64-suse-linux"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 redisclient_test"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="redisclient_test/fast">
+				<Option output="/home/qwerty/my_proj/net/cmake-build-debug/bin/redisclient_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/qwerty/my_proj/net/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/qwerty/my_proj/net/test/../src"/>
+					<Add directory="/home/qwerty/my_proj/net/test/../src/http"/>
+					<Add directory="/home/qwerty/my_proj/net/test/../src/redis"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/x86_64-suse-linux"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 redisclient_test/fast"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="httpserver_test">
+				<Option output="/home/qwerty/my_proj/net/cmake-build-debug/bin/httpserver_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/qwerty/my_proj/net/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/qwerty/my_proj/net/test/../src"/>
+					<Add directory="/home/qwerty/my_proj/net/test/../src/http"/>
+					<Add directory="/home/qwerty/my_proj/net/test/../src/redis"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/x86_64-suse-linux"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 httpserver_test"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="httpserver_test/fast">
+				<Option output="/home/qwerty/my_proj/net/cmake-build-debug/bin/httpserver_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/qwerty/my_proj/net/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/qwerty/my_proj/net/test/../src"/>
+					<Add directory="/home/qwerty/my_proj/net/test/../src/http"/>
+					<Add directory="/home/qwerty/my_proj/net/test/../src/redis"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/x86_64-suse-linux"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 httpserver_test/fast"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="wsclient_test">
+				<Option output="/home/qwerty/my_proj/net/cmake-build-debug/bin/wsclient_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/qwerty/my_proj/net/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/qwerty/my_proj/net/test/../src"/>
+					<Add directory="/home/qwerty/my_proj/net/test/../src/http"/>
+					<Add directory="/home/qwerty/my_proj/net/test/../src/redis"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/x86_64-suse-linux"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 wsclient_test"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="wsclient_test/fast">
+				<Option output="/home/qwerty/my_proj/net/cmake-build-debug/bin/wsclient_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/qwerty/my_proj/net/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/qwerty/my_proj/net/test/../src"/>
+					<Add directory="/home/qwerty/my_proj/net/test/../src/http"/>
+					<Add directory="/home/qwerty/my_proj/net/test/../src/redis"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/x86_64-suse-linux"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 wsclient_test/fast"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="httpclient_test">
+				<Option output="/home/qwerty/my_proj/net/cmake-build-debug/bin/httpclient_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/qwerty/my_proj/net/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/qwerty/my_proj/net/test/../src"/>
+					<Add directory="/home/qwerty/my_proj/net/test/../src/http"/>
+					<Add directory="/home/qwerty/my_proj/net/test/../src/redis"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/x86_64-suse-linux"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 httpclient_test"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="httpclient_test/fast">
+				<Option output="/home/qwerty/my_proj/net/cmake-build-debug/bin/httpclient_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/qwerty/my_proj/net/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/qwerty/my_proj/net/test/../src"/>
+					<Add directory="/home/qwerty/my_proj/net/test/../src/http"/>
+					<Add directory="/home/qwerty/my_proj/net/test/../src/redis"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/x86_64-suse-linux"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 httpclient_test/fast"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="echoclient_test">
+				<Option output="/home/qwerty/my_proj/net/cmake-build-debug/bin/echoclient_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/qwerty/my_proj/net/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/qwerty/my_proj/net/test/../src"/>
+					<Add directory="/home/qwerty/my_proj/net/test/../src/http"/>
+					<Add directory="/home/qwerty/my_proj/net/test/../src/redis"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/x86_64-suse-linux"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 echoclient_test"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="echoclient_test/fast">
+				<Option output="/home/qwerty/my_proj/net/cmake-build-debug/bin/echoclient_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/qwerty/my_proj/net/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/qwerty/my_proj/net/test/../src"/>
+					<Add directory="/home/qwerty/my_proj/net/test/../src/http"/>
+					<Add directory="/home/qwerty/my_proj/net/test/../src/redis"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/x86_64-suse-linux"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 echoclient_test/fast"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="echoserver_test">
+				<Option output="/home/qwerty/my_proj/net/cmake-build-debug/bin/echoserver_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/qwerty/my_proj/net/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/qwerty/my_proj/net/test/../src"/>
+					<Add directory="/home/qwerty/my_proj/net/test/../src/http"/>
+					<Add directory="/home/qwerty/my_proj/net/test/../src/redis"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/x86_64-suse-linux"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 echoserver_test"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="echoserver_test/fast">
+				<Option output="/home/qwerty/my_proj/net/cmake-build-debug/bin/echoserver_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/qwerty/my_proj/net/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/qwerty/my_proj/net/test/../src"/>
+					<Add directory="/home/qwerty/my_proj/net/test/../src/http"/>
+					<Add directory="/home/qwerty/my_proj/net/test/../src/redis"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/x86_64-suse-linux"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 echoserver_test/fast"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="timingwheel_test">
+				<Option output="/home/qwerty/my_proj/net/cmake-build-debug/bin/timingwheel_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/qwerty/my_proj/net/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/qwerty/my_proj/net/test/../src"/>
+					<Add directory="/home/qwerty/my_proj/net/test/../src/http"/>
+					<Add directory="/home/qwerty/my_proj/net/test/../src/redis"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/x86_64-suse-linux"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 timingwheel_test"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="timingwheel_test/fast">
+				<Option output="/home/qwerty/my_proj/net/cmake-build-debug/bin/timingwheel_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/qwerty/my_proj/net/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/qwerty/my_proj/net/test/../src"/>
+					<Add directory="/home/qwerty/my_proj/net/test/../src/http"/>
+					<Add directory="/home/qwerty/my_proj/net/test/../src/redis"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/x86_64-suse-linux"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 timingwheel_test/fast"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="timer_test">
+				<Option output="/home/qwerty/my_proj/net/cmake-build-debug/bin/timer_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/qwerty/my_proj/net/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/qwerty/my_proj/net/test/../src"/>
+					<Add directory="/home/qwerty/my_proj/net/test/../src/http"/>
+					<Add directory="/home/qwerty/my_proj/net/test/../src/redis"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/x86_64-suse-linux"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 timer_test"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="timer_test/fast">
+				<Option output="/home/qwerty/my_proj/net/cmake-build-debug/bin/timer_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/qwerty/my_proj/net/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/qwerty/my_proj/net/test/../src"/>
+					<Add directory="/home/qwerty/my_proj/net/test/../src/http"/>
+					<Add directory="/home/qwerty/my_proj/net/test/../src/redis"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/x86_64-suse-linux"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 timer_test/fast"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="wsserver_test">
+				<Option output="/home/qwerty/my_proj/net/cmake-build-debug/bin/wsserver_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/qwerty/my_proj/net/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/qwerty/my_proj/net/test/../src"/>
+					<Add directory="/home/qwerty/my_proj/net/test/../src/http"/>
+					<Add directory="/home/qwerty/my_proj/net/test/../src/redis"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/x86_64-suse-linux"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 wsserver_test"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="wsserver_test/fast">
+				<Option output="/home/qwerty/my_proj/net/cmake-build-debug/bin/wsserver_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/qwerty/my_proj/net/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/qwerty/my_proj/net/test/../src"/>
+					<Add directory="/home/qwerty/my_proj/net/test/../src/http"/>
+					<Add directory="/home/qwerty/my_proj/net/test/../src/redis"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/x86_64-suse-linux"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 wsserver_test/fast"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="signaler_test">
+				<Option output="/home/qwerty/my_proj/net/cmake-build-debug/bin/signaler_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/qwerty/my_proj/net/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/qwerty/my_proj/net/test/../src"/>
+					<Add directory="/home/qwerty/my_proj/net/test/../src/http"/>
+					<Add directory="/home/qwerty/my_proj/net/test/../src/redis"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/x86_64-suse-linux"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 signaler_test"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="signaler_test/fast">
+				<Option output="/home/qwerty/my_proj/net/cmake-build-debug/bin/signaler_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/qwerty/my_proj/net/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/qwerty/my_proj/net/test/../src"/>
+					<Add directory="/home/qwerty/my_proj/net/test/../src/http"/>
+					<Add directory="/home/qwerty/my_proj/net/test/../src/redis"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/x86_64-suse-linux"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 signaler_test/fast"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="notifier_test">
+				<Option output="/home/qwerty/my_proj/net/cmake-build-debug/bin/notifier_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/qwerty/my_proj/net/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/qwerty/my_proj/net/test/../src"/>
+					<Add directory="/home/qwerty/my_proj/net/test/../src/http"/>
+					<Add directory="/home/qwerty/my_proj/net/test/../src/redis"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/x86_64-suse-linux"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 notifier_test"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="notifier_test/fast">
+				<Option output="/home/qwerty/my_proj/net/cmake-build-debug/bin/notifier_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/qwerty/my_proj/net/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/qwerty/my_proj/net/test/../src"/>
+					<Add directory="/home/qwerty/my_proj/net/test/../src/http"/>
+					<Add directory="/home/qwerty/my_proj/net/test/../src/redis"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/x86_64-suse-linux"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 notifier_test/fast"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="client1">
+				<Option output="/home/qwerty/my_proj/net/cmake-build-debug/bin/client1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/qwerty/my_proj/net/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/qwerty/my_proj/net/helloworld/../src"/>
+					<Add directory="/home/qwerty/my_proj/net/helloworld/../src/http"/>
+					<Add directory="/home/qwerty/my_proj/net/helloworld/../src/redis"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/x86_64-suse-linux"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/helloworld/Makefile&quot;  VERBOSE=1 client1"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/helloworld/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/helloworld/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/helloworld/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="client1/fast">
+				<Option output="/home/qwerty/my_proj/net/cmake-build-debug/bin/client1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/qwerty/my_proj/net/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/qwerty/my_proj/net/helloworld/../src"/>
+					<Add directory="/home/qwerty/my_proj/net/helloworld/../src/http"/>
+					<Add directory="/home/qwerty/my_proj/net/helloworld/../src/redis"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/x86_64-suse-linux"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/helloworld/Makefile&quot;  VERBOSE=1 client1/fast"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/helloworld/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/helloworld/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/helloworld/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="server1">
+				<Option output="/home/qwerty/my_proj/net/cmake-build-debug/bin/server1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/qwerty/my_proj/net/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/qwerty/my_proj/net/helloworld/../src"/>
+					<Add directory="/home/qwerty/my_proj/net/helloworld/../src/http"/>
+					<Add directory="/home/qwerty/my_proj/net/helloworld/../src/redis"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/x86_64-suse-linux"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/helloworld/Makefile&quot;  VERBOSE=1 server1"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/helloworld/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/helloworld/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/helloworld/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="server1/fast">
+				<Option output="/home/qwerty/my_proj/net/cmake-build-debug/bin/server1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/qwerty/my_proj/net/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/qwerty/my_proj/net/helloworld/../src"/>
+					<Add directory="/home/qwerty/my_proj/net/helloworld/../src/http"/>
+					<Add directory="/home/qwerty/my_proj/net/helloworld/../src/redis"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/x86_64-suse-linux"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/helloworld/Makefile&quot;  VERBOSE=1 server1/fast"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/helloworld/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/helloworld/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/qwerty/my_proj/net/cmake-build-debug/helloworld/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/qwerty/my_proj/net/helloworld/client1.cpp">
+			<Option target="client1"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/helloworld/server1.cpp">
+			<Option target="server1"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/src/Buffer.cpp">
+			<Option target="tnet"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/src/Buffer.h">
+			<Option target="tnet"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/src/acceptor.cpp">
+			<Option target="tnet"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/src/acceptor.h">
+			<Option target="tnet"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/src/address.cpp">
+			<Option target="tnet"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/src/address.h">
+			<Option target="tnet"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/src/connection.cpp">
+			<Option target="tnet"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/src/connection.h">
+			<Option target="tnet"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/src/http/http_parser.c">
+			<Option target="tnet_http"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/src/http/http_parser.h">
+			<Option target="tnet_http"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/src/http/httpclient.cpp">
+			<Option target="tnet_http"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/src/http/httpclient.h">
+			<Option target="tnet_http"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/src/http/httpconnection.cpp">
+			<Option target="tnet_http"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/src/http/httpconnection.h">
+			<Option target="tnet_http"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/src/http/httpconnector.cpp">
+			<Option target="tnet_http"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/src/http/httpconnector.h">
+			<Option target="tnet_http"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/src/http/httpparser.cpp">
+			<Option target="tnet_http"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/src/http/httpparser.h">
+			<Option target="tnet_http"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/src/http/httprequest.cpp">
+			<Option target="tnet_http"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/src/http/httprequest.h">
+			<Option target="tnet_http"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/src/http/httpresponse.cpp">
+			<Option target="tnet_http"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/src/http/httpresponse.h">
+			<Option target="tnet_http"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/src/http/httpserver.cpp">
+			<Option target="tnet_http"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/src/http/httpserver.h">
+			<Option target="tnet_http"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/src/http/httputil.cpp">
+			<Option target="tnet_http"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/src/http/httputil.h">
+			<Option target="tnet_http"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/src/http/wsclient.cpp">
+			<Option target="tnet_http"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/src/http/wsclient.h">
+			<Option target="tnet_http"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/src/http/wsconnection.cpp">
+			<Option target="tnet_http"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/src/http/wsconnection.h">
+			<Option target="tnet_http"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/src/http/wsutil.cpp">
+			<Option target="tnet_http"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/src/http/wsutil.h">
+			<Option target="tnet_http"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/src/ioloop.cpp">
+			<Option target="tnet"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/src/ioloop.h">
+			<Option target="tnet"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/src/log.cpp">
+			<Option target="tnet"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/src/log.h">
+			<Option target="tnet"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/src/notifier.cpp">
+			<Option target="tnet"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/src/notifier.h">
+			<Option target="tnet"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/src/polarssl/base64.c">
+			<Option target="tnet"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/src/polarssl/base64.h">
+			<Option target="tnet"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/src/polarssl/md5.c">
+			<Option target="tnet"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/src/polarssl/md5.h">
+			<Option target="tnet"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/src/polarssl/sha1.c">
+			<Option target="tnet"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/src/polarssl/sha1.h">
+			<Option target="tnet"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/src/poller.cpp">
+			<Option target="tnet"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/src/poller.h">
+			<Option target="tnet"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/src/process.cpp">
+			<Option target="tnet"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/src/process.h">
+			<Option target="tnet"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/src/redis/hiredis.c">
+			<Option target="tnet_redis"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/src/redis/hiredis.h">
+			<Option target="tnet_redis"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/src/redis/redisclient.cpp">
+			<Option target="tnet_redis"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/src/redis/redisclient.h">
+			<Option target="tnet_redis"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/src/redis/redisconnection.cpp">
+			<Option target="tnet_redis"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/src/redis/redisconnection.h">
+			<Option target="tnet_redis"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/src/redis/redistrans.cpp">
+			<Option target="tnet_redis"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/src/redis/redistrans.h">
+			<Option target="tnet_redis"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/src/redis/sds.c">
+			<Option target="tnet_redis"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/src/redis/sds.h">
+			<Option target="tnet_redis"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/src/signaler.cpp">
+			<Option target="tnet"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/src/signaler.h">
+			<Option target="tnet"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/src/sockutil.cpp">
+			<Option target="tnet"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/src/sockutil.h">
+			<Option target="tnet"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/src/stringutil.cpp">
+			<Option target="tnet"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/src/stringutil.h">
+			<Option target="tnet"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/src/tcpserver.cpp">
+			<Option target="tnet"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/src/tcpserver.h">
+			<Option target="tnet"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/src/timer.cpp">
+			<Option target="tnet"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/src/timer.h">
+			<Option target="tnet"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/src/timingwheel.cpp">
+			<Option target="tnet"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/src/timingwheel.h">
+			<Option target="tnet"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/test/cometclient_test.cpp">
+			<Option target="cometclient_test"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/test/cometserver_test.cpp">
+			<Option target="cometserver_test"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/test/echoclient_test.cpp">
+			<Option target="echoclient_test"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/test/echoserver_test.cpp">
+			<Option target="echoserver_test"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/test/httpclient_test.cpp">
+			<Option target="httpclient_test"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/test/httpserver_test.cpp">
+			<Option target="httpserver_test"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/test/notifier_test.cpp">
+			<Option target="notifier_test"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/test/redisclient_test.cpp">
+			<Option target="redisclient_test"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/test/signaler_test.cpp">
+			<Option target="signaler_test"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/test/timer_test.cpp">
+			<Option target="timer_test"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/test/timingwheel_test.cpp">
+			<Option target="timingwheel_test"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/test/wsclient_test.cpp">
+			<Option target="wsclient_test"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/test/wsserver_test.cpp">
+			<Option target="wsserver_test"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/src/http/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\http\"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/src/redis/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\redis\"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\"/>
+		</Unit>
+		<Unit filename="/home/qwerty/my_proj/net/helloworld/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\helloworld\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

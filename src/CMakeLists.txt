@@ -18,7 +18,7 @@ set (SRCS
     polarssl/base64.c
     polarssl/md5.c
     polarssl/sha1.c
-    )
+        Buffer.cpp Buffer.h)
 
 set(LIBRARY_OUTPUT_PATH ${CMAKE_BINARY_DIR}/lib)
 

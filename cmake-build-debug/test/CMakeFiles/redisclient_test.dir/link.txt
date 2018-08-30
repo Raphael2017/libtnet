@@ -1,0 +1,1 @@
+/usr/bin/c++  -std=c++0x  -g  -rdynamic CMakeFiles/redisclient_test.dir/redisclient_test.cpp.o  -o ../bin/redisclient_test ../lib/libtnet.a ../lib/libtnet_redis.a ../lib/libtnet.a -lrt 

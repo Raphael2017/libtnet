@@ -1,0 +1,1 @@
+/usr/bin/c++  -std=c++0x  -g  -rdynamic CMakeFiles/cometclient_test.dir/cometclient_test.cpp.o  -o ../bin/cometclient_test ../lib/libtnet.a ../lib/libtnet_http.a ../lib/libtnet.a -lrt 

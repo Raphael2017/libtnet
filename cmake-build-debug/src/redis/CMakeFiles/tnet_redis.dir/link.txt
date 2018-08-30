@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libtnet_redis.a  CMakeFiles/tnet_redis.dir/hiredis.c.o CMakeFiles/tnet_redis.dir/redisclient.cpp.o CMakeFiles/tnet_redis.dir/redisconnection.cpp.o CMakeFiles/tnet_redis.dir/redistrans.cpp.o CMakeFiles/tnet_redis.dir/sds.c.o
+/usr/bin/ranlib ../../lib/libtnet_redis.a

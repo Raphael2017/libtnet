@@ -1,0 +1,1 @@
+/usr/bin/c++  -std=c++0x  -g  -rdynamic CMakeFiles/server1.dir/server1.cpp.o  -o ../bin/server1 ../lib/libtnet.a -lrt 

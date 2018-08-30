@@ -1,0 +1,1 @@
+/usr/bin/c++  -std=c++0x  -g  -rdynamic CMakeFiles/httpserver_test.dir/httpserver_test.cpp.o  -o ../bin/httpserver_test ../lib/libtnet.a ../lib/libtnet_http.a ../lib/libtnet.a -lrt 

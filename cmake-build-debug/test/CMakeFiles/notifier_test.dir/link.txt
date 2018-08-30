@@ -1,0 +1,1 @@
+/usr/bin/c++  -std=c++0x  -g  -rdynamic CMakeFiles/notifier_test.dir/notifier_test.cpp.o  -o ../bin/notifier_test ../lib/libtnet.a -lrt 

@@ -1,0 +1,1 @@
+/usr/bin/c++  -std=c++0x  -g  -rdynamic CMakeFiles/signaler_test.dir/signaler_test.cpp.o  -o ../bin/signaler_test ../lib/libtnet.a -lrt 
