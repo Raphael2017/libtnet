@@ -49,6 +49,16 @@ void Buffer::ensureEnoughSpace(size_t sz)
 {
     if (sz > writable())
     {
-        buff_.resize(writeidx_ + sz);
+        if (sz > buff_.size() - readable())
+        {
+            buff_.resize(writeidx_ + sz);
+        }
+        else
+        {
+            size_t s = readable();
+            std::copy(buff_.begin() + readidx_, buff_.begin() + writeidx_, buff_.begin());
+            readidx_ = 0;
+            writeidx_ = readidx_ + s;
+        }
     }
 }
