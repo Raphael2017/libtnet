@@ -106,7 +106,7 @@ private:
     size_t body_length_;
 };
 
-void procInput(const ConnectionPtr_t& conn)
+void procInput(ConnectionPtr_t conn)
 {
     char line[chat_message::max_body_length + 1];
     while (std::cin.getline(line, chat_message::max_body_length + 1))
