@@ -166,6 +166,7 @@ public:
         room_.join(shared_from_this());
     }
 
+    // LengthHeaderCodec
     void handleRead(const void* context)
     {
         const tnet::StackBuffer* buffer = static_cast<const tnet::StackBuffer*>(context);
