@@ -156,6 +156,12 @@ public:
 
     }
 
+    ~chat_session()
+    {
+        int a = 1;
+        a = a + 1;
+    }
+
     tnet::ConnectionPtr_t connection()
     {
         return con_;
@@ -164,6 +170,31 @@ public:
     void start()
     {
         room_.join(shared_from_this());
+        // weak callback
+        con_->setEventCallback(std::bind(&chat_session::onConnEvent, std::weak_ptr<chat_session>(shared_from_this()), std::placeholders::_1,
+                std::placeholders::_2, std::placeholders::_3));
+    }
+
+    static void onConnEvent(std::weak_ptr<chat_session> session, const tnet::ConnectionPtr_t& conn, tnet::ConnEvent event, const void* context)
+    {
+        auto sess = session.lock();
+        if (!sess) return;
+        switch (event)
+        {
+            case tnet::Conn_ReadEvent:
+            {
+                sess->handleRead(context);
+            }
+                break;
+            case tnet::Conn_CloseEvent:
+            {
+                sess->room_.leave(sess);
+                sess->con_->shutDown();
+            }
+                break;
+            default:
+                break;
+        }
     }
 
     // LengthHeaderCodec
@@ -220,17 +251,11 @@ public:
     {
         chat_session_ptr new_session(new chat_session(conn, room_));
         new_session->start();
-        mmp_[conn.get()] = new_session;
     }
     void onConnEvent(const tnet::ConnectionPtr_t& conn, tnet::ConnEvent event, const void* context)
     {
         switch(event)
         {
-            case tnet::Conn_ReadEvent:
-            {
-                mmp_[conn.get()]->handleRead(context);
-            }
-                break;
             case tnet::Conn_EstablishedEvent:
             {
                 handle_accept(conn);
@@ -242,7 +267,7 @@ public:
     }
 
 private:
-    std::map<void*, chat_session_ptr> mmp_;
+    //std::map<void*, chat_session_ptr> mmp_;
     tnet::TcpServer& sv_;
     chat_room room_;
 };
@@ -251,7 +276,7 @@ int main()
 {
     tnet::TcpServer s;
     chat_server sv(s);
-    s.listen(tnet::Address(11182), std::bind(&chat_server::onConnEvent, &sv, _1, _2, _3));
+    s.listen(tnet::Address(11181), std::bind(&chat_server::onConnEvent, &sv, _1, _2, _3));
 
     s.start(1);
 }
